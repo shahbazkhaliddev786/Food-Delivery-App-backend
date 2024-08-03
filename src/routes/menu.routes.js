@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express_1 = require("express");
+var menu_controller_js_1 = require("../controllers/menu.controller.js");
+var menuRouter = (0, express_1.Router)();
+menuRouter.post("/create", menu_controller_js_1.createMenu);
+menuRouter.get("/", menu_controller_js_1.getMenus);
+menuRouter.patch("/:menuId", menu_controller_js_1.updateMenu);
+menuRouter.delete("/:menuId", menu_controller_js_1.deleteMenu);
+exports.default = menuRouter;

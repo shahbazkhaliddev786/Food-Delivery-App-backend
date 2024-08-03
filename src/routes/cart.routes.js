@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express_1 = require("express");
+var cart_controller_js_1 = require("../controllers/cart.controller.js");
+var cartRouter = (0, express_1.Router)();
+cartRouter.post("/add", cart_controller_js_1.addToCart);
+cartRouter.delete("/remove", cart_controller_js_1.removeFromCart);
+cartRouter.patch("/update-quantity", cart_controller_js_1.updateCartItemQuantity);
+cartRouter.get("/:userId", cart_controller_js_1.getCart);
+cartRouter.delete("/clear/:userId", cart_controller_js_1.clearCart);
+exports.default = cartRouter;

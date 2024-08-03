@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express_1 = require("express");
+var auth_controller_js_1 = require("../controllers/auth.controller.js");
+var auth_validations_js_1 = require("../validations/auth.validations.js");
+var validations_js_1 = require("../validations/validations.js");
+var authRouter = (0, express_1.Router)();
+authRouter.post("/signup", (0, auth_validations_js_1.signupValidations)(), validations_js_1.validationErrors, auth_controller_js_1.signUp);
+authRouter.post("/login", (0, auth_validations_js_1.loginValidations)(), validations_js_1.validationErrors, auth_controller_js_1.signIn);
+authRouter.post("/send", auth_controller_js_1.sendVerificationMail);
+authRouter.post("/verify", auth_controller_js_1.verifyMail);
+authRouter.post("/forgot", auth_controller_js_1.forgetPassword);
+authRouter.post("/forgot-verify", auth_controller_js_1.verifyForgotPasswordToken);
+exports.default = authRouter;
