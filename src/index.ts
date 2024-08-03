@@ -22,3 +22,5 @@ connectDB()
         console.log("Mongodb data conn fail !!!", err);
     }
 );
+
+export default app;

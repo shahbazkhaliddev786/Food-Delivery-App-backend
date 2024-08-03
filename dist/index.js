@@ -19,4 +19,5 @@ connectDB()
     .catch((err) => {
     console.log("Mongodb data conn fail !!!", err);
 });
+export default app;
 //# sourceMappingURL=index.js.map
