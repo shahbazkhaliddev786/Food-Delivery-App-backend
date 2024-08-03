@@ -6,7 +6,6 @@ import loaders from "./loaders/index.js";
 const app = express();
 const port = process.env.PORT || 8000;
 
-console.log(process.env.PORT);
 loaders({app});
 
 // database connection
