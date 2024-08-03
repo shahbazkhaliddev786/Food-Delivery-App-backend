@@ -5,7 +5,7 @@ import helmet from "helmet";
 import cookieParser  from 'cookie-parser';
 import morgan from "morgan";
 import passport from 'passport';
-import kPassport from "../middlewares/passport.js"
+import kPassport from "../middlewares/passport.js";
 import { authChecker } from '../middlewares/authChecker.js';
 import authRouter from "../routes/auth.routes.js";
 import menuRouter from '../routes/menu.routes.js';
