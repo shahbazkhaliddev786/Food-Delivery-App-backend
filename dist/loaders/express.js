@@ -44,4 +44,7 @@ export default async function ({ app }) {
     app.get("/dashboard", authChecker, (req, res) => {
         res.json({ message: "Dashboard" });
     });
+    app.get("/", (req, res) => {
+        res.json({ message: "Food App started" });
+    });
 }
