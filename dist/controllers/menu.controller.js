@@ -64,3 +64,4 @@ export const deleteMenu = async (req, res) => {
         res.status(500).json({ message: "Server error in deleting menu" });
     }
 };
+//# sourceMappingURL=menu.controller.js.map

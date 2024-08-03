@@ -15,3 +15,4 @@ export const sendEmail = async (to, subject, html) => {
     };
     await transporter.sendMail(mailOptions);
 };
+//# sourceMappingURL=sendEmail.js.map

@@ -29,3 +29,4 @@ const menuSchema = new Schema({
     }
 }, { timestamps: true });
 export const Menu = model("Menu", menuSchema);
+//# sourceMappingURL=menu.model.js.map

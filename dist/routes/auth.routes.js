@@ -10,3 +10,4 @@ authRouter.post("/verify", verifyMail);
 authRouter.post("/forgot", forgetPassword);
 authRouter.post("/forgot-verify", verifyForgotPasswordToken);
 export default authRouter;
+//# sourceMappingURL=auth.routes.js.map

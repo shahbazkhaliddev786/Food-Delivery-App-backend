@@ -48,3 +48,4 @@ export default async function ({ app }) {
         res.json({ message: "Food App started" });
     });
 }
+//# sourceMappingURL=express.js.map

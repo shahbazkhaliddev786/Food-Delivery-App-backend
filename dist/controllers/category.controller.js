@@ -58,3 +58,4 @@ export const deleteCategory = async (req, res) => {
         res.status(500).json({ message: "Server error in deleting category" });
     }
 };
+//# sourceMappingURL=category.controller.js.map

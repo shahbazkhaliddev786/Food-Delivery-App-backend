@@ -7,3 +7,4 @@ orderRouter.get("/", getAllOrders);
 orderRouter.patch("/:orderId/status", updateOrderStatus);
 orderRouter.delete("/:orderId", deleteOrder);
 export default orderRouter;
+//# sourceMappingURL=order.routes.js.map

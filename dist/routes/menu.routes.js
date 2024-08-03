@@ -6,3 +6,4 @@ menuRouter.get("/", getMenus);
 menuRouter.patch("/:menuId", updateMenu);
 menuRouter.delete("/:menuId", deleteMenu);
 export default menuRouter;
+//# sourceMappingURL=menu.routes.js.map

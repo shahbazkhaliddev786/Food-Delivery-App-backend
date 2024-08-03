@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config({ path: '../.env' });
 import express from "express";
 import connectDB  from "./config/db.js";
-import loaders from "./loaders/index.js";
+import loaders from "./loaders/index.js"
 const app = express();
 const port = process.env.PORT || 8000;
 
@@ -22,4 +22,3 @@ connectDB()
         console.log("Mongodb data conn fail !!!", err);
     }
 );
-console.log("Compiled ts running");

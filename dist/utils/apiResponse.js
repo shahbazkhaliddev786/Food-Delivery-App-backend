@@ -5,3 +5,4 @@ export const response = (res, statusCode, status, message, data) => {
         data,
     });
 };
+//# sourceMappingURL=apiResponse.js.map

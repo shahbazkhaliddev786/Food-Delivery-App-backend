@@ -1,0 +1,1 @@
+{"version":3,"file":"authChecker.js","sourceRoot":"","sources":["../../src/middlewares/authChecker.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,UAAU,CAAC;AAEhC,MAAM,CAAC,MAAM,WAAW,GAAG,QAAQ,CAAC,YAAY,CAAC,KAAK,EAAE,EAAC,OAAO,EAAC,KAAK,EAAC,CAAC,CAAC"}

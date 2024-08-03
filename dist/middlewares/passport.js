@@ -20,3 +20,4 @@ export default (passport) => {
         }).catch(() => done(null, false));
     }));
 };
+//# sourceMappingURL=passport.js.map

@@ -6,3 +6,4 @@ categoryRouter.get("/", getCategories);
 categoryRouter.patch("/:categoryId", updateCategory);
 categoryRouter.delete("/:categoryId", deleteCategory);
 export default categoryRouter;
+//# sourceMappingURL=category.routes.js.map

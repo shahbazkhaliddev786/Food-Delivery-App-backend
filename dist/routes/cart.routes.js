@@ -7,3 +7,4 @@ cartRouter.patch("/update-quantity", updateCartItemQuantity);
 cartRouter.get("/:userId", getCart);
 cartRouter.delete("/clear/:userId", clearCart);
 export default cartRouter;
+//# sourceMappingURL=cart.routes.js.map

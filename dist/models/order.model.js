@@ -41,3 +41,4 @@ const orderSchema = new Schema({
     }
 });
 export const Order = model("Order", orderSchema);
+//# sourceMappingURL=order.model.js.map

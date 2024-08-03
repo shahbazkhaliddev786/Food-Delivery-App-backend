@@ -10,3 +10,4 @@ export const validationErrors = (req, res, next) => {
         errors: extractedErrors,
     });
 };
+//# sourceMappingURL=validations.js.map

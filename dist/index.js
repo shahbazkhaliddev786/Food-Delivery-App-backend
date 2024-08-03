@@ -19,4 +19,4 @@ connectDB()
     .catch((err) => {
     console.log("Mongodb data conn fail !!!", err);
 });
-console.log("Compiled ts running");
+//# sourceMappingURL=index.js.map

@@ -82,3 +82,4 @@ export const deleteOrder = async (req, res) => {
         res.status(500).json({ message: "Server error in deleting order" });
     }
 };
+//# sourceMappingURL=order.controller.js.map

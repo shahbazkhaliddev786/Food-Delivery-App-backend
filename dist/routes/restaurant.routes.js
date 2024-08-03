@@ -4,3 +4,4 @@ const restaurantRouter = Router();
 restaurantRouter.post("/restaurant-signup", restaurantSignUp);
 restaurantRouter.post("/restaurant-login", restaurantSignIn);
 export default restaurantRouter;
+//# sourceMappingURL=restaurant.routes.js.map

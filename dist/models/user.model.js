@@ -23,3 +23,4 @@ const userSchema = new Schema({
     verifyToken: { type: String },
 }, { timestamps: true });
 export const User = model("User", userSchema);
+//# sourceMappingURL=user.model.js.map

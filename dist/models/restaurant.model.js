@@ -30,3 +30,4 @@ const restaurantSchema = new Schema({
     },
 }, { timestamps: true });
 export const Restaurant = model("Restaurant", restaurantSchema);
+//# sourceMappingURL=restaurant.model.js.map

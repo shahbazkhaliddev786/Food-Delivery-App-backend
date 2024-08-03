@@ -10,3 +10,4 @@ export default async function ({ app }) {
 //   2. Reusable
 //   3. Maintenance
 //   4. Scalability
+//# sourceMappingURL=index.js.map
